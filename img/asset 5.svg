@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.197" height="12.313" viewBox="0 0 12.197 12.313">
+  <g id="close_button" data-name="close button" transform="translate(-290.533 -16.293)">
+    <g id="arrow" transform="translate(291.24 17)">
+      <path id="선_142" data-name="선 142" d="M.707,6.656-.707,5.242,5.241-.707,6.656.707Z" transform="translate(10.782 5.949) rotate(180)"/>
+      <path id="선_143" data-name="선 143" d="M5.241,6.656-.707.707.707-.707,6.656,5.242Z" transform="translate(5.948 5.949) rotate(180)"/>
+    </g>
+    <g id="arrow-2" data-name="arrow" transform="translate(302.022 27.898) rotate(180)">
+      <path id="선_142-2" data-name="선 142" d="M.707,6.656-.707,5.242,5.241-.707,6.656.707Z" transform="translate(10.782 5.949) rotate(180)"/>
+      <path id="선_143-2" data-name="선 143" d="M5.241,6.656-.707.707.707-.707,6.656,5.242Z" transform="translate(5.948 5.949) rotate(180)"/>
+    </g>
+  </g>
+</svg>
