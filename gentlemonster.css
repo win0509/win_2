@@ -1,3 +1,7 @@
+/* 구글폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* 전체초기화 */
 *{
     margin: 0;
     padding: 0;
@@ -49,10 +53,12 @@ header .nav-bar .menu{
     column-gap: 6rem;
 }
 header .nav-bar .menu li a{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
     transition: 0.3s;
+    
 }
 header .nav-bar .menu li a:hover{
     color: #7a7a7aaa;
@@ -80,6 +86,7 @@ header .nav-bar .sns .sns-img img{
 .swiper {
     width: 100%;
     height: 100%;
+
   }
 
   .swiper-slide {
@@ -98,6 +105,72 @@ header .nav-bar .sns .sns-img img{
     object-fit: cover;
   }
 
-  /* 스와이퍼 버튼 위치랑 색상바꾸기부터 해야함!!! */
+/* section-1 */
+.container{
+    padding: 0 100px;
+}
+.section-1 .txt-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    row-gap: 1rem;
+}
+.section-1 .txt-box h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+.section-1 .txt-box p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.section-1 .month-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 0;
+}
 
-
+.section-1 .month-box .month{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 1rem;
+}
+.section-1 .month-box .month .month-img{
+   width: 350px;
+   height: 350px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   border: 1px solid #dddddd;
+  
+   
+}
+.section-1 .month-box .month .month-img img{
+    width: 100%;
+  
+}
+.section-1 .month-box .month p{
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.section-1 .month-box .month .month-button{
+    width: 100px;
+    height: 50px;
+    background-color: #333333;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.section-1 .month-box .month .month-button span{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
