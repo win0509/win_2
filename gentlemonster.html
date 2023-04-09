@@ -15,14 +15,22 @@
 </head>
 <body>
     <!-- header -->
-        <header>
-            <!-- <div class="top-bar">
-                <p>무료 배송/반품 서비스로 젠틀몬스터를 경험해보세요.</p>
-            </div> -->
+    <!-- <div class="top-bar">
+        <p>무료 배송/반품 서비스로 젠틀몬스터를 경험해보세요.</p>
+        
+    </div> -->
+
+    <div class="top-btn">Top</div>
+
+        <header >
             <div class="nav-bar">
                 <h1 class="logo"><!--<img src="./img/asset 12.svg" alt="">-->GENTLE MONSTER</h1>
                 <ul class="menu">
-                    <li><a href="#">선글라스</a></li>
+                    <li><a href="#">선글라스</a>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    </li>
                     <li><a href="#">안경</a></li>
                     <li><a href="#">콜라보레이션</a></li>
                     <li><a href="#">스타일</a></li>
@@ -41,6 +49,13 @@
 
     <!-- slide swiper -->
     <div class="swiper mySwiper">
+        <div class="slider-text">
+            <h2>SHOP NEW ARRIVALS</h2>
+            <div class="slider-btn">
+                <div>볼드 컬렉션</div>
+                <div>2023 컬렉션</div>
+            </div>
+        </div>
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="./img/slider-8.png" alt=""></div>
           <div class="swiper-slide"><img src="./img/asset 6.jpeg" alt=""></div>
@@ -78,9 +93,33 @@
             </div>
         </div>
     </section>
-
     <!-- section-2 -->
-    <section class="container section-2">
+    <section class="contaniner section-2">
+        <div class="sec2-box">
+            <div class="sec2-img"><img src="./img/collaboration-pc-1.avif" alt=""></div>
+            <!-- <div class="sec2-t-b">
+                <p>메종마르지엘라</p>
+                <div>자세히 보기</div>
+            </div> -->
+        </div>
+        <div class="sec2-box">
+            <div class="sec2-img"><img src="./img/sec-2.jpeg" alt="" class="hover-img"></div>
+            <div class="sec2-t-b">
+                <p>메종 마르지엘라 x 젠틀몬스터</p>
+                <div class="j">자세히 보기</div>
+            </div>
+        </div>
+        <div class="sec2-box">
+            <div class="sec2-img"><img src="./img/sec-3.jpeg" alt=""  class="hover-img" ></div>
+            <div class="sec2-t-b">
+                <p>젠틀몬스터 x 제니</p>
+                <div>자세히 보기</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 -->
+    <section class="container section-3">
         <div class="txt-box">
             <h1 class="title-t">Featured Product</h1>
             <p class="sub-t">Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
@@ -199,9 +238,10 @@
 
 
 
-      <script src="./gentlemonster.js"></script>
+      
        <!-- Swiper JS -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script src="./gentlemonster.js"></script>
       <!-- Initialize Swiper -->
       <script>
             var swiper = new Swiper(".mySwiper", {
